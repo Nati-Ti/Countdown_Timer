@@ -1,0 +1,95 @@
+.countDownTimer{
+  width: 400px;
+  margin: 0px auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0px auto; */
+  border: 1px solid white;
+  /* color: black; */
+  /* background-color: #DDDDDD; */
+  border: 1px solid #999;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.426);
+}
+
+.countDown_input{
+  display: flex;
+  /* margin-left: 5px; */
+  margin-bottom: 5px;
+}
+
+.countDown_input p:last-child{
+  padding-left: 20px;
+}
+
+.countDown_input p{
+  margin: 0 25px;
+}
+
+form input{
+  width: 50px;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  font-size: large;
+  margin: 0px 15px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px dashed #999;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.2); 
+}
+
+form{
+  margin: 20px 0px 0px;
+}
+
+.countDown_display{
+  display: flex;
+  justify-content: center;
+}
+
+.countDown_button{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.countDown_button button{
+  padding: 10px 15px;
+  border: 2px solid #999;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.426);
+}
+
+.countDown_button button:hover{
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  color: black;
+  background-color: #DDD;
+}
+
+.shaking-div {
+  animation: shake 0.5s infinite alternate;
+  color: rgb(120, 32, 32);
+}
+
+@keyframes shake {
+  from {
+    transform: translateX(-5px);
+  }
+  to {
+    transform: translateX(5px);
+  }
+}
+
+
+.stopwatch_img img{
+  height: 60px;
+}

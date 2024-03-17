@@ -1,10 +1,12 @@
 import React from 'react';
 import CountdownTimer from './assets/components/CountdownTimer';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Countdown Timer</h1>
+    <div className='countDown_wrapper'>
+      <h1 className='countDown_title'>Countdown Timer</h1>
+      
       <CountdownTimer />
     </div>
   )
